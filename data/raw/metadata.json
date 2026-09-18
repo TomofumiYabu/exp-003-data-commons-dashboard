@@ -1,0 +1,584 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\":\"SUCCESS\",\"variables\":{\"LifeExpectancy_Person\":{\"id\":\"LifeExpectancy_Person\",\"name\":\"Life Expectancy\",\"properties\":{\"populationType\":\"Person\",\"statType\":\"measuredValue\",\"measuredProperty\":\"lifeExpectancy\"},\"facets\":[{\"id\":\"12728019882330480535\",\"provenanceId\":\"dc/base/MexicoCensus\",\"obsCount\":13,\"dateRange\":{\"start\":\"2010\",\"end\":\"2022\"},\"scope\":{\"entityCoverage\":[\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea1\",\"City\",\"Country\",\"Place\"]},\"properties\":{}},{\"id\":\"17310021153417057128\",\"provenanceId\":\"dc/base/OECDRegionalDemography_LifeExpectancy\",\"obsCount\":66,\"dateRange\":{\"start\":\"1990\",\"end\":\"2024\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"AdministrativeArea3\",\"AdministrativeArea4\",\"AdministrativeArea5\",\"Canton\",\"City\",\"Country\",\"County\",\"Department\",\"District\",\"EurostatNUTS1\",\"EurostatNUTS2\",\"EurostatNUTS3\",\"FederalSubject\",\"Place\",\"Prefecture\",\"Province\",\"ProvisionalNode\",\"Region\",\"State\"]},\"properties\":{\"measurementMethod\":\"OECDRegionalStatistics\",\"observationPeriod\":\"P1Y\",\"unit\":\"Year\"}},{\"id\":\"8027911949465806975\",\"provenanceId\":\"dc/base/WorldDevelopmentIndicators\",\"obsCount\":192,\"dateRange\":{\"start\":\"1960\",\"end\":\"2023\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"City\",\"Country\",\"Place\",\"UNGeoRegion\"]},\"properties\":{\"unit\":\"Year\"}}]},\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\":{\"id\":\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"name\":\"Mortality Rate of Children Younger Than 4 Years\",\"description\":\"Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year. Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at www.childmortality.org.\",\"properties\":{\"populationType\":\"Person\",\"measurementDenominator\":\"Total number of reported live births\",\"statType\":\"measuredValue\",\"age\":\"YearsUpto4\",\"constraintProperties\":\"age\",\"descriptionUrl\":\"https://data.worldbank.org/indicator\",\"measuredProperty\":\"mortalityRate\"},\"facets\":[{\"id\":\"15983318500878066985\",\"provenanceId\":\"dc/base/WorldDevelopmentIndicators\",\"obsCount\":192,\"dateRange\":{\"start\":\"1960\",\"end\":\"2023\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea1\",\"Country\",\"Place\"]},\"properties\":{\"observationPeriod\":\"P1Y\",\"unit\":\"Per1000LiveBirths\"}}]},\"Count_Person\":{\"id\":\"Count_Person\",\"name\":\"Total population\",\"description\":\"The total number of people in a population.\",\"properties\":{\"populationType\":\"Person\",\"statType\":\"measuredValue\",\"measuredProperty\":\"count\"},\"facets\":[{\"id\":\"11070079666792475072\",\"provenanceId\":\"dc/base/Japan_Census\",\"obsCount\":21,\"dateRange\":{\"start\":\"1920\",\"end\":\"2020\"},\"scope\":{\"entityCoverage\":[\"country/JPN\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"AdministrativeArea3\",\"City\",\"Country\",\"Neighborhood\",\"Place\",\"Prefecture\",\"Village\"]},\"properties\":{}},{\"id\":\"12728019882330480535\",\"provenanceId\":\"dc/base/MexicoCensus\",\"obsCount\":6,\"dateRange\":{\"start\":\"1990\",\"end\":\"2020\"},\"scope\":{\"entityCoverage\":[\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea1\",\"City\",\"Country\",\"Place\"]},\"properties\":{}},{\"id\":\"12850099660527362240\",\"provenanceId\":\"dc/base/WikidataPopulation\",\"obsCount\":150,\"dateRange\":{\"start\":\"1960\",\"end\":\"2024\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"AdministrativeArea3\",\"AdministrativeArea4\",\"AdministrativeArea5\",\"Borough\",\"Canton\",\"CensusCountyDivision\",\"City\",\"Continent\",\"Country\",\"County\",\"Department\",\"District\",\"Division\",\"Emirate\",\"EurostatNUTS1\",\"EurostatNUTS2\",\"EurostatNUTS3\",\"Governorate\",\"Island\",\"Municipality\",\"Neighborhood\",\"Oblast\",\"Parish\",\"Place\",\"PlanningArea\",\"Prefecture\",\"Province\",\"Region\",\"SchoolDistrict\",\"Sector\",\"State\",\"StatisticalRegion\",\"Town\",\"Village\"]},\"properties\":{\"measurementMethod\":\"WikidataPopulation\"}},{\"id\":\"17272542113939416525\",\"provenanceId\":\"dc/base/OECDRegionalDemography_Population\",\"obsCount\":68,\"dateRange\":{\"start\":\"1990\",\"end\":\"2023\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"AdministrativeArea3\",\"AdministrativeArea4\",\"AdministrativeArea5\",\"Canton\",\"City\",\"Country\",\"County\",\"District\",\"EurostatNUTS1\",\"EurostatNUTS2\",\"EurostatNUTS3\",\"Place\",\"Prefecture\",\"ProvisionalNode\",\"Region\",\"State\",\"Village\"]},\"properties\":{\"observationPeriod\":\"P1Y\",\"measurementMethod\":\"OECDRegionalStatistics\"}},{\"id\":\"18369491376878146239\",\"provenanceId\":\"dc/base/WorldDevelopmentIndicators\",\"obsCount\":195,\"dateRange\":{\"start\":\"1960\",\"end\":\"2024\"},\"scope\":{\"entityCoverage\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"City\",\"Country\",\"Place\",\"UNGeoRegion\"]},\"properties\":{\"observationPeriod\":\"P1Y\"}},{\"id\":\"4655208836981694294\",\"provenanceId\":\"dc/base/Subnational_Demographics_Stats\",\"obsCount\":34,\"dateRange\":{\"start\":\"2000\",\"end\":\"2016\"},\"scope\":{\"entityCoverage\":[\"country/KEN\",\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"AdministrativeArea4\",\"AdministrativeArea5\",\"AutonomousRegion\",\"Borough\",\"City\",\"Country\",\"County\",\"District\",\"EurostatNUTS2\",\"EurostatNUTS3\",\"FederalSubject\",\"Governorate\",\"Municipality\",\"Oblast\",\"Parish\",\"Place\",\"Province\",\"Region\",\"Sector\",\"State\",\"Village\"]},\"properties\":{\"measurementMethod\":\"WorldBankSubnationalPopulationEstimate\",\"observationPeriod\":\"P1Y\"}},{\"id\":\"7825127397789950237\",\"provenanceId\":\"dc/base/Kenya_Census\",\"obsCount\":1,\"dateRange\":{\"start\":\"2019\",\"end\":\"2019\"},\"scope\":{\"entityCoverage\":[\"country/KEN\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"City\",\"Country\",\"Place\",\"Village\"]},\"properties\":{\"observationPeriod\":\"P1Y\"}},{\"id\":\"8077862740403905120\",\"provenanceId\":\"dc/base/MexicoCensus_AA2\",\"obsCount\":2,\"dateRange\":{\"start\":\"2021\",\"end\":\"2024\"},\"scope\":{\"entityCoverage\":[\"country/MEX\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"AdministrativeArea2\",\"City\",\"Country\",\"Place\",\"ProvisionalNode\",\"Village\"]},\"properties\":{}},{\"id\":\"8600821667449073091\",\"provenanceId\":\"dc/base/Kenya_Census\",\"obsCount\":1,\"dateRange\":{\"start\":\"2019\",\"end\":\"2019\"},\"scope\":{\"entityCoverage\":[\"country/KEN\"],\"entityGranularity\":[\"AdministrativeArea\",\"AdministrativeArea1\",\"City\",\"Country\",\"Place\",\"Village\"]},\"properties\":{}}]}},\"provenances\":{\"dc/base/WikidataPopulation\":{\"id\":\"dc/base/WikidataPopulation\",\"properties\":{\"isPartOf\":\"Wikidata\",\"description\":\"Population counts and demographic statistics for geographic entities extracted from Wikidata.\",\"domain\":\"wikimediafoundation.org\",\"url\":\"https://www.wikidata.org/wiki/Wikidata:Main_Page\",\"lastDataRefreshDate\":\"2025-06-30\",\"source\":\"Wikimedia Foundation\"}},\"dc/base/OECDRegionalDemography_LifeExpectancy\":{\"id\":\"dc/base/OECDRegionalDemography_LifeExpectancy\",\"properties\":{\"url\":\"https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_LIFE_EXP&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A.......&pd=%2C&to[TIME_PERIOD]=false&vw=tb\",\"domain\":\"stats.oecd.org\",\"description\":\"Life Expectancy statistics by gender measured by OECD.\",\"lastDataRefreshDate\":\"2026-08-01\",\"sourceReleaseFrequency\":\"P1Y\",\"source\":\"Organisation for Economic Co-operation and Development (OECD)\",\"descriptionUrl\":\"https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_LIFE_EXP&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A\",\"isPartOf\":\"OECD Regional Demography Statistics Life Expectancy\",\"nextDataRefreshDate\":\"2026-08-15\",\"licenseType\":\"PublicDomain\",\"license\":\"https://www.oecd.org/en/about/terms-conditions.html\"}},\"dc/base/Kenya_Census\":{\"id\":\"dc/base/Kenya_Census\",\"properties\":{\"licenseType\":\"Creative Commons Attribution License\",\"domain\":\"dataportal.opendataforafrica.org\",\"source\":\"Open Data for Africa\",\"descriptionUrl\":\"https://kenya.opendataforafrica.org/#\",\"license\":\"https://kenya.opendataforafrica.org/gdlkmgb\",\"url\":\"https://kenya.opendataforafrica.org/\",\"description\":\"Kenya Demographics, Health and Education data from Kenya National Bureau Of Statistics by country, county and towns and suburbs.\",\"lastDataRefreshDate\":\"2025-03-14\",\"isPartOf\":\"Kenya Census\"}},\"dc/base/OECDRegionalDemography_Population\":{\"id\":\"dc/base/OECDRegionalDemography_Population\",\"properties\":{\"url\":\"https://data-explorer.oecd.org/vis?fs[0]=Topic%2C0%7CRegional%252C%20rural%20and%20urban%20development%23GEO%23&pg=40&fc=Topic&bp=true&snb=117&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_POP_5Y&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A.......&to[TIME_PERIOD]=false&vw=tb&pd=%2C\",\"descriptionUrl\":\"https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_POP_5Y&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A\",\"description\":\"Population statistics by age and sex measured by OECD.\",\"licenseType\":\"PublicDomain\",\"source\":\"Organisation for Economic Co-operation and Development (OECD)\",\"license\":\"https://www.oecd.org/en/about/terms-conditions.html\",\"isPartOf\":\"OECD Regional Demography Statistics Population\",\"domain\":\"stats.oecd.org\",\"sourceReleaseFrequency\":\"P1Y\"}},\"dc/base/Subnational_Demographics_Stats\":{\"id\":\"dc/base/Subnational_Demographics_Stats\",\"properties\":{\"url\":\"https://databank.worldbank.org/source/subnational-population\",\"domain\":\"www.worldbank.org\",\"descriptionUrl\":\"https://databank.worldbank.org/source/subnational-population\",\"licenseType\":\"Creative Commons Attribution License 3.0 Intergovernmental Organization\",\"lastDataRefreshDate\":\"2026-08-29\",\"nextDataRefreshDate\":\"2026-09-05\",\"description\":\"Sub-national Demographic data - Worldbank Population for Country and States.\",\"license\":\"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\",\"isPartOf\":\"World Bank Subnational Population\",\"source\":\"World Bank\"}},\"dc/base/MexicoCensus_AA2\":{\"id\":\"dc/base/MexicoCensus_AA2\",\"properties\":{\"lastDataRefreshDate\":\"2026-09-09\",\"nextDataRefreshDate\":\"2026-09-16\",\"description\":\"Mexican Demographics data from The Humanitarian Data Exchange(HDX) at Municipal Level.\",\"descriptionUrl\":\"https://data.humdata.org/dataset/cod-ps-mex\",\"url\":\"https://data.humdata.org/dataset/cod-ps-mex\",\"domain\":\"www.unocha.org\",\"source\":\"United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA)\",\"isPartOf\":\"Mexico Subnational Population Statistics\"}},\"dc/base/WorldDevelopmentIndicators\":{\"id\":\"dc/base/WorldDevelopmentIndicators\",\"properties\":{\"license\":\"https://datacatalog.worldbank.org/search/dataset/0037712\",\"descriptionUrl\":\"https://datacatalog.worldbank.org/search/dataset/0037712\",\"sourceReleaseFrequency\":\"P1M\",\"description\":\"The primary World Bank collection of development indicators encompassing global economic and social data.\",\"url\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"domain\":\"www.worldbank.org\",\"source\":\"World Bank\",\"licenseType\":\"Creative Commons Attribution License\",\"isPartOf\":\"World Development Indicators\"}},\"dc/base/MexicoCensus\":{\"id\":\"dc/base/MexicoCensus\",\"properties\":{\"source\":\"Mexico National Institute of Statistics and Geography (INEGI)\",\"url\":\"https://www.inegi.org.mx/temas/\",\"domain\":\"www.inegi.org.mx\",\"description\":\"Mexican Demographics, Economy, Health and Education data from National Institute of Statistics and Geography (INEGI) at Country and State level.\",\"isPartOf\":\"Mexico Census\",\"lastDataRefreshDate\":\"2023-07-19\"}},\"dc/base/Japan_Census\":{\"id\":\"dc/base/Japan_Census\",\"properties\":{\"description\":\"Japan Demographics, Economy, Health, Education data from Portal Site of Official Statistics of Japan (e-Stat) by country, prefecture and municipality.\",\"isPartOf\":\"Japan Census\",\"lastDataRefreshDate\":\"2023-06-21\",\"source\":\"Portal Site of Official Statistics of Japan (e-Stat)\",\"descriptionUrl\":\"https://www.e-stat.go.jp/stat-search/files?page=1&layout=normal&toukei=00200521&tstat=000001080615 \",\"domain\":\"www.e-stat.go.jp\",\"url\":\"https://www.e-stat.go.jp/\"}}}}"
+    }
+  ],
+  "structuredContent": {
+    "status": "SUCCESS",
+    "variables": {
+      "LifeExpectancy_Person": {
+        "id": "LifeExpectancy_Person",
+        "name": "Life Expectancy",
+        "properties": {
+          "populationType": "Person",
+          "statType": "measuredValue",
+          "measuredProperty": "lifeExpectancy"
+        },
+        "facets": [
+          {
+            "id": "12728019882330480535",
+            "provenanceId": "dc/base/MexicoCensus",
+            "obsCount": 13,
+            "dateRange": {
+              "start": "2010",
+              "end": "2022"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place"
+              ]
+            },
+            "properties": {}
+          },
+          {
+            "id": "17310021153417057128",
+            "provenanceId": "dc/base/OECDRegionalDemography_LifeExpectancy",
+            "obsCount": 66,
+            "dateRange": {
+              "start": "1990",
+              "end": "2024"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "AdministrativeArea3",
+                "AdministrativeArea4",
+                "AdministrativeArea5",
+                "Canton",
+                "City",
+                "Country",
+                "County",
+                "Department",
+                "District",
+                "EurostatNUTS1",
+                "EurostatNUTS2",
+                "EurostatNUTS3",
+                "FederalSubject",
+                "Place",
+                "Prefecture",
+                "Province",
+                "ProvisionalNode",
+                "Region",
+                "State"
+              ]
+            },
+            "properties": {
+              "measurementMethod": "OECDRegionalStatistics",
+              "observationPeriod": "P1Y",
+              "unit": "Year"
+            }
+          },
+          {
+            "id": "8027911949465806975",
+            "provenanceId": "dc/base/WorldDevelopmentIndicators",
+            "obsCount": 192,
+            "dateRange": {
+              "start": "1960",
+              "end": "2023"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/KEN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place",
+                "UNGeoRegion"
+              ]
+            },
+            "properties": {
+              "unit": "Year"
+            }
+          }
+        ]
+      },
+      "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth": {
+        "id": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "name": "Mortality Rate of Children Younger Than 4 Years",
+        "description": "Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year. Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA Population Division) at www.childmortality.org.",
+        "properties": {
+          "populationType": "Person",
+          "measurementDenominator": "Total number of reported live births",
+          "statType": "measuredValue",
+          "age": "YearsUpto4",
+          "constraintProperties": "age",
+          "descriptionUrl": "https://data.worldbank.org/indicator",
+          "measuredProperty": "mortalityRate"
+        },
+        "facets": [
+          {
+            "id": "15983318500878066985",
+            "provenanceId": "dc/base/WorldDevelopmentIndicators",
+            "obsCount": 192,
+            "dateRange": {
+              "start": "1960",
+              "end": "2023"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/KEN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea1",
+                "Country",
+                "Place"
+              ]
+            },
+            "properties": {
+              "observationPeriod": "P1Y",
+              "unit": "Per1000LiveBirths"
+            }
+          }
+        ]
+      },
+      "Count_Person": {
+        "id": "Count_Person",
+        "name": "Total population",
+        "description": "The total number of people in a population.",
+        "properties": {
+          "populationType": "Person",
+          "statType": "measuredValue",
+          "measuredProperty": "count"
+        },
+        "facets": [
+          {
+            "id": "11070079666792475072",
+            "provenanceId": "dc/base/Japan_Census",
+            "obsCount": 21,
+            "dateRange": {
+              "start": "1920",
+              "end": "2020"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "AdministrativeArea3",
+                "City",
+                "Country",
+                "Neighborhood",
+                "Place",
+                "Prefecture",
+                "Village"
+              ]
+            },
+            "properties": {}
+          },
+          {
+            "id": "12728019882330480535",
+            "provenanceId": "dc/base/MexicoCensus",
+            "obsCount": 6,
+            "dateRange": {
+              "start": "1990",
+              "end": "2020"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place"
+              ]
+            },
+            "properties": {}
+          },
+          {
+            "id": "12850099660527362240",
+            "provenanceId": "dc/base/WikidataPopulation",
+            "obsCount": 150,
+            "dateRange": {
+              "start": "1960",
+              "end": "2024"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/KEN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "AdministrativeArea3",
+                "AdministrativeArea4",
+                "AdministrativeArea5",
+                "Borough",
+                "Canton",
+                "CensusCountyDivision",
+                "City",
+                "Continent",
+                "Country",
+                "County",
+                "Department",
+                "District",
+                "Division",
+                "Emirate",
+                "EurostatNUTS1",
+                "EurostatNUTS2",
+                "EurostatNUTS3",
+                "Governorate",
+                "Island",
+                "Municipality",
+                "Neighborhood",
+                "Oblast",
+                "Parish",
+                "Place",
+                "PlanningArea",
+                "Prefecture",
+                "Province",
+                "Region",
+                "SchoolDistrict",
+                "Sector",
+                "State",
+                "StatisticalRegion",
+                "Town",
+                "Village"
+              ]
+            },
+            "properties": {
+              "measurementMethod": "WikidataPopulation"
+            }
+          },
+          {
+            "id": "17272542113939416525",
+            "provenanceId": "dc/base/OECDRegionalDemography_Population",
+            "obsCount": 68,
+            "dateRange": {
+              "start": "1990",
+              "end": "2023"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "AdministrativeArea3",
+                "AdministrativeArea4",
+                "AdministrativeArea5",
+                "Canton",
+                "City",
+                "Country",
+                "County",
+                "District",
+                "EurostatNUTS1",
+                "EurostatNUTS2",
+                "EurostatNUTS3",
+                "Place",
+                "Prefecture",
+                "ProvisionalNode",
+                "Region",
+                "State",
+                "Village"
+              ]
+            },
+            "properties": {
+              "observationPeriod": "P1Y",
+              "measurementMethod": "OECDRegionalStatistics"
+            }
+          },
+          {
+            "id": "18369491376878146239",
+            "provenanceId": "dc/base/WorldDevelopmentIndicators",
+            "obsCount": 195,
+            "dateRange": {
+              "start": "1960",
+              "end": "2024"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/JPN",
+                "country/KEN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place",
+                "UNGeoRegion"
+              ]
+            },
+            "properties": {
+              "observationPeriod": "P1Y"
+            }
+          },
+          {
+            "id": "4655208836981694294",
+            "provenanceId": "dc/base/Subnational_Demographics_Stats",
+            "obsCount": 34,
+            "dateRange": {
+              "start": "2000",
+              "end": "2016"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/KEN",
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "AdministrativeArea4",
+                "AdministrativeArea5",
+                "AutonomousRegion",
+                "Borough",
+                "City",
+                "Country",
+                "County",
+                "District",
+                "EurostatNUTS2",
+                "EurostatNUTS3",
+                "FederalSubject",
+                "Governorate",
+                "Municipality",
+                "Oblast",
+                "Parish",
+                "Place",
+                "Province",
+                "Region",
+                "Sector",
+                "State",
+                "Village"
+              ]
+            },
+            "properties": {
+              "measurementMethod": "WorldBankSubnationalPopulationEstimate",
+              "observationPeriod": "P1Y"
+            }
+          },
+          {
+            "id": "7825127397789950237",
+            "provenanceId": "dc/base/Kenya_Census",
+            "obsCount": 1,
+            "dateRange": {
+              "start": "2019",
+              "end": "2019"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/KEN"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place",
+                "Village"
+              ]
+            },
+            "properties": {
+              "observationPeriod": "P1Y"
+            }
+          },
+          {
+            "id": "8077862740403905120",
+            "provenanceId": "dc/base/MexicoCensus_AA2",
+            "obsCount": 2,
+            "dateRange": {
+              "start": "2021",
+              "end": "2024"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/MEX"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "AdministrativeArea2",
+                "City",
+                "Country",
+                "Place",
+                "ProvisionalNode",
+                "Village"
+              ]
+            },
+            "properties": {}
+          },
+          {
+            "id": "8600821667449073091",
+            "provenanceId": "dc/base/Kenya_Census",
+            "obsCount": 1,
+            "dateRange": {
+              "start": "2019",
+              "end": "2019"
+            },
+            "scope": {
+              "entityCoverage": [
+                "country/KEN"
+              ],
+              "entityGranularity": [
+                "AdministrativeArea",
+                "AdministrativeArea1",
+                "City",
+                "Country",
+                "Place",
+                "Village"
+              ]
+            },
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "provenances": {
+      "dc/base/WikidataPopulation": {
+        "id": "dc/base/WikidataPopulation",
+        "properties": {
+          "isPartOf": "Wikidata",
+          "description": "Population counts and demographic statistics for geographic entities extracted from Wikidata.",
+          "domain": "wikimediafoundation.org",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "lastDataRefreshDate": "2025-06-30",
+          "source": "Wikimedia Foundation"
+        }
+      },
+      "dc/base/OECDRegionalDemography_LifeExpectancy": {
+        "id": "dc/base/OECDRegionalDemography_LifeExpectancy",
+        "properties": {
+          "url": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_LIFE_EXP&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A.......&pd=%2C&to[TIME_PERIOD]=false&vw=tb",
+          "domain": "stats.oecd.org",
+          "description": "Life Expectancy statistics by gender measured by OECD.",
+          "lastDataRefreshDate": "2026-08-01",
+          "sourceReleaseFrequency": "P1Y",
+          "source": "Organisation for Economic Co-operation and Development (OECD)",
+          "descriptionUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_LIFE_EXP&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A",
+          "isPartOf": "OECD Regional Demography Statistics Life Expectancy",
+          "nextDataRefreshDate": "2026-08-15",
+          "licenseType": "PublicDomain",
+          "license": "https://www.oecd.org/en/about/terms-conditions.html"
+        }
+      },
+      "dc/base/Kenya_Census": {
+        "id": "dc/base/Kenya_Census",
+        "properties": {
+          "licenseType": "Creative Commons Attribution License",
+          "domain": "dataportal.opendataforafrica.org",
+          "source": "Open Data for Africa",
+          "descriptionUrl": "https://kenya.opendataforafrica.org/#",
+          "license": "https://kenya.opendataforafrica.org/gdlkmgb",
+          "url": "https://kenya.opendataforafrica.org/",
+          "description": "Kenya Demographics, Health and Education data from Kenya National Bureau Of Statistics by country, county and towns and suburbs.",
+          "lastDataRefreshDate": "2025-03-14",
+          "isPartOf": "Kenya Census"
+        }
+      },
+      "dc/base/OECDRegionalDemography_Population": {
+        "id": "dc/base/OECDRegionalDemography_Population",
+        "properties": {
+          "url": "https://data-explorer.oecd.org/vis?fs[0]=Topic%2C0%7CRegional%252C%20rural%20and%20urban%20development%23GEO%23&pg=40&fc=Topic&bp=true&snb=117&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_POP_5Y&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A.......&to[TIME_PERIOD]=false&vw=tb&pd=%2C",
+          "descriptionUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_POP_5Y&df[ag]=OECD.CFE.EDS&df[vs]=2.0&dq=A",
+          "description": "Population statistics by age and sex measured by OECD.",
+          "licenseType": "PublicDomain",
+          "source": "Organisation for Economic Co-operation and Development (OECD)",
+          "license": "https://www.oecd.org/en/about/terms-conditions.html",
+          "isPartOf": "OECD Regional Demography Statistics Population",
+          "domain": "stats.oecd.org",
+          "sourceReleaseFrequency": "P1Y"
+        }
+      },
+      "dc/base/Subnational_Demographics_Stats": {
+        "id": "dc/base/Subnational_Demographics_Stats",
+        "properties": {
+          "url": "https://databank.worldbank.org/source/subnational-population",
+          "domain": "www.worldbank.org",
+          "descriptionUrl": "https://databank.worldbank.org/source/subnational-population",
+          "licenseType": "Creative Commons Attribution License 3.0 Intergovernmental Organization",
+          "lastDataRefreshDate": "2026-08-29",
+          "nextDataRefreshDate": "2026-09-05",
+          "description": "Sub-national Demographic data - Worldbank Population for Country and States.",
+          "license": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets",
+          "isPartOf": "World Bank Subnational Population",
+          "source": "World Bank"
+        }
+      },
+      "dc/base/MexicoCensus_AA2": {
+        "id": "dc/base/MexicoCensus_AA2",
+        "properties": {
+          "lastDataRefreshDate": "2026-09-09",
+          "nextDataRefreshDate": "2026-09-16",
+          "description": "Mexican Demographics data from The Humanitarian Data Exchange(HDX) at Municipal Level.",
+          "descriptionUrl": "https://data.humdata.org/dataset/cod-ps-mex",
+          "url": "https://data.humdata.org/dataset/cod-ps-mex",
+          "domain": "www.unocha.org",
+          "source": "United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA)",
+          "isPartOf": "Mexico Subnational Population Statistics"
+        }
+      },
+      "dc/base/WorldDevelopmentIndicators": {
+        "id": "dc/base/WorldDevelopmentIndicators",
+        "properties": {
+          "license": "https://datacatalog.worldbank.org/search/dataset/0037712",
+          "descriptionUrl": "https://datacatalog.worldbank.org/search/dataset/0037712",
+          "sourceReleaseFrequency": "P1M",
+          "description": "The primary World Bank collection of development indicators encompassing global economic and social data.",
+          "url": "https://datatopics.worldbank.org/world-development-indicators/",
+          "domain": "www.worldbank.org",
+          "source": "World Bank",
+          "licenseType": "Creative Commons Attribution License",
+          "isPartOf": "World Development Indicators"
+        }
+      },
+      "dc/base/MexicoCensus": {
+        "id": "dc/base/MexicoCensus",
+        "properties": {
+          "source": "Mexico National Institute of Statistics and Geography (INEGI)",
+          "url": "https://www.inegi.org.mx/temas/",
+          "domain": "www.inegi.org.mx",
+          "description": "Mexican Demographics, Economy, Health and Education data from National Institute of Statistics and Geography (INEGI) at Country and State level.",
+          "isPartOf": "Mexico Census",
+          "lastDataRefreshDate": "2023-07-19"
+        }
+      },
+      "dc/base/Japan_Census": {
+        "id": "dc/base/Japan_Census",
+        "properties": {
+          "description": "Japan Demographics, Economy, Health, Education data from Portal Site of Official Statistics of Japan (e-Stat) by country, prefecture and municipality.",
+          "isPartOf": "Japan Census",
+          "lastDataRefreshDate": "2023-06-21",
+          "source": "Portal Site of Official Statistics of Japan (e-Stat)",
+          "descriptionUrl": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=normal&toukei=00200521&tstat=000001080615 ",
+          "domain": "www.e-stat.go.jp",
+          "url": "https://www.e-stat.go.jp/"
+        }
+      }
+    }
+  },
+  "isError": false
+}

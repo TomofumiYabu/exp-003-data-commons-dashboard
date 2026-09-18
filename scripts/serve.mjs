@@ -1,0 +1,3 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+const root=path.resolve('web');const types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.csv':'text/csv'};
+http.createServer((req,res)=>{const p=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));if(p!==root&&!p.startsWith(root+path.sep)){res.writeHead(403);return res.end();}const f=p===root?path.join(root,'index.html'):p;fs.readFile(f,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':types[path.extname(f)]||'text/plain'});res.end(e?'Not found':b);});}).listen(8003,'127.0.0.1',()=>console.log('EXP-003: http://127.0.0.1:8003'));

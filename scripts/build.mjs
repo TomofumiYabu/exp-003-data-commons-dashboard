@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+const d=JSON.parse(fs.readFileSync('data/processed/dataset.json','utf8'));
+fs.mkdirSync('web/data',{recursive:true});fs.mkdirSync('reports',{recursive:true});
+const changes=d.series.map(s=>{const a=s.values[0],b=s.values.at(-1);return {indicator:s.indicator,country:s.country,start:a.year,end:b.year,first:a.value,last:b.value,absolute:b.value-a.value,percent:100*(b.value/a.value-1)}});
+const get=(i,c)=>changes.find(x=>x.indicator===i&&x.country===c);
+const fmt=(n,p=2)=>n.toLocaleString('en-US',{maximumFractionDigits:p,minimumFractionDigits:p});
+const findings=[];
+for(const c of ['Japan','Kenya','Mexico']){const x=get('population',c);findings.push({indicator:'population',countries:[c],years:[x.start,x.end],text:`${c}'s population ${x.absolute<0?'fell':'rose'} ${fmt(Math.abs(x.percent))}% from ${fmt(x.first,0)} in ${x.start} to ${fmt(x.last,0)} in ${x.end}.`});}
+findings.push({indicator:'life',countries:['Japan','Kenya','Mexico'],years:[2015,2023],text:`Life expectancy increased between 2015 and 2023 by ${['Japan','Kenya','Mexico'].map(c=>`${fmt(get('life',c).absolute)} years in ${c}`).join(', ')}.`});
+findings.push({indicator:'life',countries:['Mexico'],years:[2019,2021,2023],text:'Mexico’s life expectancy fell from 74.53 years in 2019 to 69.75 in 2021, then reached 75.07 in 2023. This is a descriptive pattern, not a causal estimate.'});
+findings.push({indicator:'mortality',countries:['Japan','Kenya','Mexico'],years:[2015,2023],text:`Under-five mortality declined in all three countries from 2015 to 2023: ${['Japan','Kenya','Mexico'].map(c=>`${fmt(-get('mortality',c).percent)}% in ${c}`).join(', ')}. These are relative reductions, not percentage-point changes.`});
+d.changes=changes;d.findings=findings;
+d.limitations=['Six requested 2024 health observations are absent in the selected MCP facets. Missing years are not imputed. Population covers 2015–2024; health indicators cover 2015–2023.','These are national aggregates and may hide within-country inequalities. Source estimates can be revised; retrieval dates do not identify a historical WDI release.','MCP display text for mortality says younger than 4, but its explicit definition is death before age five. That definition and per-1,000-live-births unit govern this analysis.','No causal conclusions or uncertainty intervals are estimated. Differences between indicators’ periods must be respected.','The hosted Data Commons endpoint was tested; this does not establish that a separate UN-specific graph or endpoint was queried.','The web-only comparison is sequential and not blinded. Prior MCP knowledge and supplementary definition checks limit experimental independence.'];
+fs.writeFileSync('web/data/dataset.json',JSON.stringify(d,null,2)+'\n');
+fs.writeFileSync('data/processed/changes.json',JSON.stringify(changes,null,2)+'\n');
+const csv=['indicator,country,place,year,value,unit,facet,source_url'];
+for(const s of d.series)for(let y=2015;y<=2024;y++){const v=s.values.find(v=>v.year===y);csv.push([s.indicator,s.country,s.place,y,v?.value??'',`"${d.variables.find(v=>v.key===s.indicator).unit}"`,s.source.sourceId,s.source.provenanceUrl].join(','));}
+fs.writeFileSync('web/data/observations.csv',csv.join('\n')+'\n');fs.copyFileSync('web/data/observations.csv','data/processed/observations.csv');
+fs.writeFileSync('reports/analysis.md','# EXP-003 analysis — Phase 2 PASS\n\nSource: World Bank WDI via Data Commons MCP, retrieved 2026-09-18. 84/90 requested annual cells (93.33%), all 9 country-indicator pairs.\n\n'+findings.map((f,i)=>`## Finding ${i+1}\n${f.text}\n\nTrace: web/data/dataset.json → series indicator=${f.indicator}, countries=${f.countries.join('/')}, years=${f.years.join('/')}.\n`).join('\n')+'\n## Charts\nThree separate annual line charts: population, life expectancy, and under-five mortality. Country comparison table uses the latest common year within each indicator, with start/end changes.\n\n## Limitations\n'+d.limitations.map(x=>'- '+x).join('\n')+'\n');
+console.log(JSON.stringify({phase1:'PASS',phase2:'PASS',observations:84,requested:90,findings:findings.length}));

@@ -1,0 +1,115 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\":\"SUCCESS\",\"dcidNameMappings\":{\"Count_Person_45To54Years\":\"Population Aged 45 to 54\",\"Count_Person_55To64Years\":\"Population: 55 - 64 Years\",\"Count_Person_65To74Years\":\"Population Aged 65 to 74\",\"country/JPN\":\"Japan\",\"country/MEX\":\"Mexico\",\"Count_Person_25To34Years\":\"Population Aged 25 to 34 Years\",\"Count_Person_35To44Years\":\"Population Aged 35 to 44\",\"Count_Person_75OrMoreYears\":\"Population Aged 75 and Up\",\"country/KEN\":\"Kenya\",\"Count_Person\":\"population count\",\"Count_Person_PerArea\":\"Population Density\",\"GrowthRate_Count_Person\":\"Population growth rate\",\"Median_Age_Person\":\"Median age of population\"},\"dcidPlaceTypeMappings\":{\"country/KEN\":[\"Country\",\"Country\"],\"country/MEX\":[\"Country\",\"Country\"],\"country/JPN\":[\"Country\",\"Country\"]},\"variables\":[{\"dcid\":\"Count_Person\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_25To34Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_35To44Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_45To54Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_55To64Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_65To74Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_75OrMoreYears\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Person_PerArea\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"GrowthRate_Count_Person\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"Median_Age_Person\",\"placesWithData\":[\"country/MEX\"]}]}"
+    }
+  ],
+  "structuredContent": {
+    "status": "SUCCESS",
+    "dcidNameMappings": {
+      "Count_Person_45To54Years": "Population Aged 45 to 54",
+      "Count_Person_55To64Years": "Population: 55 - 64 Years",
+      "Count_Person_65To74Years": "Population Aged 65 to 74",
+      "country/JPN": "Japan",
+      "country/MEX": "Mexico",
+      "Count_Person_25To34Years": "Population Aged 25 to 34 Years",
+      "Count_Person_35To44Years": "Population Aged 35 to 44",
+      "Count_Person_75OrMoreYears": "Population Aged 75 and Up",
+      "country/KEN": "Kenya",
+      "Count_Person": "population count",
+      "Count_Person_PerArea": "Population Density",
+      "GrowthRate_Count_Person": "Population growth rate",
+      "Median_Age_Person": "Median age of population"
+    },
+    "dcidPlaceTypeMappings": {
+      "country/KEN": [
+        "Country",
+        "Country"
+      ],
+      "country/MEX": [
+        "Country",
+        "Country"
+      ],
+      "country/JPN": [
+        "Country",
+        "Country"
+      ]
+    },
+    "variables": [
+      {
+        "dcid": "Count_Person",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_25To34Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_35To44Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_45To54Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_55To64Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_65To74Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_75OrMoreYears",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Person_PerArea",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "GrowthRate_Count_Person",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Median_Age_Person",
+        "placesWithData": [
+          "country/MEX"
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

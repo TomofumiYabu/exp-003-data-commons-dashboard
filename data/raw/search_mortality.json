@@ -1,0 +1,115 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\":\"SUCCESS\",\"dcidNameMappings\":{\"Count_Death_Upto1Years\":\"Count of mortality event: years upto 1\",\"Count_Death_Upto14Years_AsAFractionOf_Count_Person_Upto14Years\":\"Child mortality for Ages Up to 14 Years\",\"country/MEX\":\"Mexico\",\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\":\"mortality of Children Younger Than 4 Years\",\"sdg/SH_DYN_IMRT.AGE--Y0__SEX--F\":\"Infant mortality rate [under 1 year old, Female]\",\"sdg/SH_DYN_IMRT.AGE--Y0__SEX--M\":\"Infant mortality rate [under 1 year old, Male]\",\"Count_MortalityEvent_Newborn\":\"Number of newborn deaths\",\"country/KEN\":\"Kenya\",\"country/JPN\":\"Japan\",\"Count_MortalityEvent_Infant_AsAFractionOf_Count_BirthEvent_LiveBirth\":\"Infant mortality rate\",\"Count_Death_0Years_AsFractionOf_Count_BirthEvent_LiveBirth\":\"infant mortality\",\"Count_Death_LessThan1Year_AsAFractionOf_Count_BirthEvent\":\"Infant mortality\",\"sdg/SH_DYN_NMRT.AGE--M0\":\"Neonatal mortality rate [under 1 month old]\"},\"dcidPlaceTypeMappings\":{\"country/KEN\":[\"Country\",\"Country\"],\"country/MEX\":[\"Country\",\"Country\"],\"country/JPN\":[\"Country\",\"Country\"]},\"variables\":[{\"dcid\":\"Count_Death_0Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"Count_Death_LessThan1Year_AsAFractionOf_Count_BirthEvent\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Death_Upto14Years_AsAFractionOf_Count_Person_Upto14Years\",\"placesWithData\":[\"country/JPN\",\"country/MEX\"]},{\"dcid\":\"Count_Death_Upto1Years\",\"placesWithData\":[\"country/MEX\"]},{\"dcid\":\"Count_MortalityEvent_Infant_AsAFractionOf_Count_BirthEvent_LiveBirth\",\"placesWithData\":[\"country/KEN\"]},{\"dcid\":\"Count_MortalityEvent_Newborn\",\"placesWithData\":[\"country/KEN\"]},{\"dcid\":\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"sdg/SH_DYN_IMRT.AGE--Y0__SEX--F\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"sdg/SH_DYN_IMRT.AGE--Y0__SEX--M\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]},{\"dcid\":\"sdg/SH_DYN_NMRT.AGE--M0\",\"placesWithData\":[\"country/JPN\",\"country/KEN\",\"country/MEX\"]}]}"
+    }
+  ],
+  "structuredContent": {
+    "status": "SUCCESS",
+    "dcidNameMappings": {
+      "Count_Death_Upto1Years": "Count of mortality event: years upto 1",
+      "Count_Death_Upto14Years_AsAFractionOf_Count_Person_Upto14Years": "Child mortality for Ages Up to 14 Years",
+      "country/MEX": "Mexico",
+      "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth": "mortality of Children Younger Than 4 Years",
+      "sdg/SH_DYN_IMRT.AGE--Y0__SEX--F": "Infant mortality rate [under 1 year old, Female]",
+      "sdg/SH_DYN_IMRT.AGE--Y0__SEX--M": "Infant mortality rate [under 1 year old, Male]",
+      "Count_MortalityEvent_Newborn": "Number of newborn deaths",
+      "country/KEN": "Kenya",
+      "country/JPN": "Japan",
+      "Count_MortalityEvent_Infant_AsAFractionOf_Count_BirthEvent_LiveBirth": "Infant mortality rate",
+      "Count_Death_0Years_AsFractionOf_Count_BirthEvent_LiveBirth": "infant mortality",
+      "Count_Death_LessThan1Year_AsAFractionOf_Count_BirthEvent": "Infant mortality",
+      "sdg/SH_DYN_NMRT.AGE--M0": "Neonatal mortality rate [under 1 month old]"
+    },
+    "dcidPlaceTypeMappings": {
+      "country/KEN": [
+        "Country",
+        "Country"
+      ],
+      "country/MEX": [
+        "Country",
+        "Country"
+      ],
+      "country/JPN": [
+        "Country",
+        "Country"
+      ]
+    },
+    "variables": [
+      {
+        "dcid": "Count_Death_0Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Death_LessThan1Year_AsAFractionOf_Count_BirthEvent",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Death_Upto14Years_AsAFractionOf_Count_Person_Upto14Years",
+        "placesWithData": [
+          "country/JPN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_Death_Upto1Years",
+        "placesWithData": [
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "Count_MortalityEvent_Infant_AsAFractionOf_Count_BirthEvent_LiveBirth",
+        "placesWithData": [
+          "country/KEN"
+        ]
+      },
+      {
+        "dcid": "Count_MortalityEvent_Newborn",
+        "placesWithData": [
+          "country/KEN"
+        ]
+      },
+      {
+        "dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "sdg/SH_DYN_IMRT.AGE--Y0__SEX--F",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "sdg/SH_DYN_IMRT.AGE--Y0__SEX--M",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      },
+      {
+        "dcid": "sdg/SH_DYN_NMRT.AGE--M0",
+        "placesWithData": [
+          "country/JPN",
+          "country/KEN",
+          "country/MEX"
+        ]
+      }
+    ]
+  },
+  "isError": false
+}

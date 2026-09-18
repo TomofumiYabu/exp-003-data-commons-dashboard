@@ -1,0 +1,20 @@
+{
+  "rows": 30,
+  "exact": 24,
+  "rounded": 4,
+  "differences": [
+    {
+      "country": "Kenya",
+      "year": 2015,
+      "mcp": 62.279,
+      "web": 61.89
+    },
+    {
+      "country": "Mexico",
+      "year": 2015,
+      "mcp": 74.431,
+      "web": 74.68
+    }
+  ],
+  "baselineElapsedSeconds": 96.167
+}

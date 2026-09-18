@@ -1,0 +1,91 @@
+indicator,country,place,year,value,unit,facet,source_url
+life,Japan,country/JPN,2015,83.793902439,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2016,83.9848780488,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2017,84.0997560976,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2018,84.2109756098,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2019,84.3563414634,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2020,84.56,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2021,84.4456097561,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2022,83.9963414634,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2023,84.0412195122,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Japan,country/JPN,2024,,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2015,62.279,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2016,62.526,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2017,62.725,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2018,62.825,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2019,62.939,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2020,61.596,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2021,61.225,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2022,63.549,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2023,63.646,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Kenya,country/KEN,2024,,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2015,74.431,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2016,74.376,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2017,74.261,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2018,74.301,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2019,74.53,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2020,70.449,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2021,69.75,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2022,73.973,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2023,75.069,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+life,Mexico,country/MEX,2024,,"years",8027911949465806975,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2015,2.8,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2016,2.7,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2017,2.6,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2018,2.5,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2019,2.5,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2020,2.4,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2021,2.4,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2022,2.4,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2023,2.4,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Japan,country/JPN,2024,,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2015,47.4,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2016,46,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2017,45.3,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2018,44.3,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2019,43.3,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2020,42.8,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2021,41.9,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2022,41.1,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2023,39.9,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Kenya,country/KEN,2024,,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2015,16.2,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2016,15.7,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2017,15.2,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2018,14.7,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2019,14.2,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2020,13.8,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2021,13.3,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2022,12.9,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2023,12.5,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+mortality,Mexico,country/MEX,2024,,"per 1,000 live births",15983318500878066985,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2015,127141000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2016,127076000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2017,126972000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2018,126811000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2019,126633000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2020,126261000,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2021,125681593,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2022,125124989,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2023,124516650,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Japan,country/JPN,2024,123975371,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2015,47088526,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2016,48139687,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2017,49197766,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2018,50207107,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2019,51202827,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2020,52217334,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2021,53219166,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2022,54252461,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2023,55339003,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Kenya,country/KEN,2024,56432944,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2015,121072306,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2016,122251351,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2017,123400057,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2018,124573711,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2019,125762982,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2020,126799054,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2021,127648148,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2022,128613117,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2023,129739759,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/
+population,Mexico,country/MEX,2024,130861007,"persons",18369491376878146239,https://datatopics.worldbank.org/world-development-indicators/

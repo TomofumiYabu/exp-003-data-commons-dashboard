@@ -1,0 +1,92 @@
+[
+  {
+    "indicator": "life",
+    "country": "Japan",
+    "start": 2015,
+    "end": 2023,
+    "first": 83.793902439,
+    "last": 84.0412195122,
+    "absolute": 0.2473170732000085,
+    "percent": 0.29514924833586864
+  },
+  {
+    "indicator": "life",
+    "country": "Kenya",
+    "start": 2015,
+    "end": 2023,
+    "first": 62.279,
+    "last": 63.646,
+    "absolute": 1.3669999999999973,
+    "percent": 2.1949613834518766
+  },
+  {
+    "indicator": "life",
+    "country": "Mexico",
+    "start": 2015,
+    "end": 2023,
+    "first": 74.431,
+    "last": 75.069,
+    "absolute": 0.6380000000000052,
+    "percent": 0.8571697276672507
+  },
+  {
+    "indicator": "mortality",
+    "country": "Japan",
+    "start": 2015,
+    "end": 2023,
+    "first": 2.8,
+    "last": 2.4,
+    "absolute": -0.3999999999999999,
+    "percent": -14.28571428571428
+  },
+  {
+    "indicator": "mortality",
+    "country": "Kenya",
+    "start": 2015,
+    "end": 2023,
+    "first": 47.4,
+    "last": 39.9,
+    "absolute": -7.5,
+    "percent": -15.822784810126578
+  },
+  {
+    "indicator": "mortality",
+    "country": "Mexico",
+    "start": 2015,
+    "end": 2023,
+    "first": 16.2,
+    "last": 12.5,
+    "absolute": -3.6999999999999993,
+    "percent": -22.839506172839506
+  },
+  {
+    "indicator": "population",
+    "country": "Japan",
+    "start": 2015,
+    "end": 2024,
+    "first": 127141000,
+    "last": 123975371,
+    "absolute": -3165629,
+    "percent": -2.489856930494494
+  },
+  {
+    "indicator": "population",
+    "country": "Kenya",
+    "start": 2015,
+    "end": 2024,
+    "first": 47088526,
+    "last": 56432944,
+    "absolute": 9344418,
+    "percent": 19.844362934613848
+  },
+  {
+    "indicator": "population",
+    "country": "Mexico",
+    "start": 2015,
+    "end": 2024,
+    "first": 121072306,
+    "last": 130861007,
+    "absolute": 9788701,
+    "percent": 8.085004179238142
+  }
+]

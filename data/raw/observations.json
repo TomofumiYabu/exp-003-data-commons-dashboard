@@ -1,0 +1,974 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "LifeExpectancy_Person",
+        "place_dcid": "country/JPN",
+        "source_override": "8027911949465806975",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"LifeExpectancy_Person\",\"name\":\"Life Expectancy\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"8027911949465806975\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Year\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/JPN\",\"Japan\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/JPN\",\"2015\",83.793902439],[\"country/JPN\",\"2016\",83.9848780488],[\"country/JPN\",\"2017\",84.0997560976],[\"country/JPN\",\"2018\",84.2109756098],[\"country/JPN\",\"2019\",84.3563414634],[\"country/JPN\",\"2020\",84.56],[\"country/JPN\",\"2021\",84.4456097561],[\"country/JPN\",\"2022\",83.9963414634],[\"country/JPN\",\"2023\",84.0412195122]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "LifeExpectancy_Person",
+            "name": "Life Expectancy",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "8027911949465806975",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Year"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "Japan",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "2015",
+                83.793902439
+              ],
+              [
+                "country/JPN",
+                "2016",
+                83.9848780488
+              ],
+              [
+                "country/JPN",
+                "2017",
+                84.0997560976
+              ],
+              [
+                "country/JPN",
+                "2018",
+                84.2109756098
+              ],
+              [
+                "country/JPN",
+                "2019",
+                84.3563414634
+              ],
+              [
+                "country/JPN",
+                "2020",
+                84.56
+              ],
+              [
+                "country/JPN",
+                "2021",
+                84.4456097561
+              ],
+              [
+                "country/JPN",
+                "2022",
+                83.9963414634
+              ],
+              [
+                "country/JPN",
+                "2023",
+                84.0412195122
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "LifeExpectancy_Person",
+        "place_dcid": "country/KEN",
+        "source_override": "8027911949465806975",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"LifeExpectancy_Person\",\"name\":\"Life Expectancy\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"8027911949465806975\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Year\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/KEN\",\"Kenya\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/KEN\",\"2015\",62.279],[\"country/KEN\",\"2016\",62.526],[\"country/KEN\",\"2017\",62.725],[\"country/KEN\",\"2018\",62.825],[\"country/KEN\",\"2019\",62.939],[\"country/KEN\",\"2020\",61.596],[\"country/KEN\",\"2021\",61.225],[\"country/KEN\",\"2022\",63.549],[\"country/KEN\",\"2023\",63.646]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "LifeExpectancy_Person",
+            "name": "Life Expectancy",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "8027911949465806975",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Year"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "Kenya",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "2015",
+                62.279
+              ],
+              [
+                "country/KEN",
+                "2016",
+                62.526
+              ],
+              [
+                "country/KEN",
+                "2017",
+                62.725
+              ],
+              [
+                "country/KEN",
+                "2018",
+                62.825
+              ],
+              [
+                "country/KEN",
+                "2019",
+                62.939
+              ],
+              [
+                "country/KEN",
+                "2020",
+                61.596
+              ],
+              [
+                "country/KEN",
+                "2021",
+                61.225
+              ],
+              [
+                "country/KEN",
+                "2022",
+                63.549
+              ],
+              [
+                "country/KEN",
+                "2023",
+                63.646
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "LifeExpectancy_Person",
+        "place_dcid": "country/MEX",
+        "source_override": "8027911949465806975",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"LifeExpectancy_Person\",\"name\":\"Life Expectancy\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"8027911949465806975\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Year\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/MEX\",\"Mexico\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/MEX\",\"2015\",74.431],[\"country/MEX\",\"2016\",74.376],[\"country/MEX\",\"2017\",74.261],[\"country/MEX\",\"2018\",74.301],[\"country/MEX\",\"2019\",74.53],[\"country/MEX\",\"2020\",70.449],[\"country/MEX\",\"2021\",69.75],[\"country/MEX\",\"2022\",73.973],[\"country/MEX\",\"2023\",75.069]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "LifeExpectancy_Person",
+            "name": "Life Expectancy",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "8027911949465806975",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Year"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "Mexico",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "2015",
+                74.431
+              ],
+              [
+                "country/MEX",
+                "2016",
+                74.376
+              ],
+              [
+                "country/MEX",
+                "2017",
+                74.261
+              ],
+              [
+                "country/MEX",
+                "2018",
+                74.301
+              ],
+              [
+                "country/MEX",
+                "2019",
+                74.53
+              ],
+              [
+                "country/MEX",
+                "2020",
+                70.449
+              ],
+              [
+                "country/MEX",
+                "2021",
+                69.75
+              ],
+              [
+                "country/MEX",
+                "2022",
+                73.973
+              ],
+              [
+                "country/MEX",
+                "2023",
+                75.069
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "place_dcid": "country/JPN",
+        "source_override": "15983318500878066985",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"name\":\"Mortality Rate of Children Younger Than 4 Years\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15983318500878066985\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Per1000LiveBirths\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/JPN\",\"Japan\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/JPN\",\"2015\",2.8],[\"country/JPN\",\"2016\",2.7],[\"country/JPN\",\"2017\",2.6],[\"country/JPN\",\"2018\",2.5],[\"country/JPN\",\"2019\",2.5],[\"country/JPN\",\"2020\",2.4],[\"country/JPN\",\"2021\",2.4],[\"country/JPN\",\"2022\",2.4],[\"country/JPN\",\"2023\",2.4]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+            "name": "Mortality Rate of Children Younger Than 4 Years",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "15983318500878066985",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Per1000LiveBirths"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "Japan",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "2015",
+                2.8
+              ],
+              [
+                "country/JPN",
+                "2016",
+                2.7
+              ],
+              [
+                "country/JPN",
+                "2017",
+                2.6
+              ],
+              [
+                "country/JPN",
+                "2018",
+                2.5
+              ],
+              [
+                "country/JPN",
+                "2019",
+                2.5
+              ],
+              [
+                "country/JPN",
+                "2020",
+                2.4
+              ],
+              [
+                "country/JPN",
+                "2021",
+                2.4
+              ],
+              [
+                "country/JPN",
+                "2022",
+                2.4
+              ],
+              [
+                "country/JPN",
+                "2023",
+                2.4
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "place_dcid": "country/KEN",
+        "source_override": "15983318500878066985",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"name\":\"Mortality Rate of Children Younger Than 4 Years\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15983318500878066985\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Per1000LiveBirths\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/KEN\",\"Kenya\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/KEN\",\"2015\",47.4],[\"country/KEN\",\"2016\",46],[\"country/KEN\",\"2017\",45.3],[\"country/KEN\",\"2018\",44.3],[\"country/KEN\",\"2019\",43.3],[\"country/KEN\",\"2020\",42.8],[\"country/KEN\",\"2021\",41.9],[\"country/KEN\",\"2022\",41.1],[\"country/KEN\",\"2023\",39.9]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+            "name": "Mortality Rate of Children Younger Than 4 Years",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "15983318500878066985",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Per1000LiveBirths"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "Kenya",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "2015",
+                47.4
+              ],
+              [
+                "country/KEN",
+                "2016",
+                46
+              ],
+              [
+                "country/KEN",
+                "2017",
+                45.3
+              ],
+              [
+                "country/KEN",
+                "2018",
+                44.3
+              ],
+              [
+                "country/KEN",
+                "2019",
+                43.3
+              ],
+              [
+                "country/KEN",
+                "2020",
+                42.8
+              ],
+              [
+                "country/KEN",
+                "2021",
+                41.9
+              ],
+              [
+                "country/KEN",
+                "2022",
+                41.1
+              ],
+              [
+                "country/KEN",
+                "2023",
+                39.9
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+        "place_dcid": "country/MEX",
+        "source_override": "15983318500878066985",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth\",\"name\":\"Mortality Rate of Children Younger Than 4 Years\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"15983318500878066985\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\",\"unit\":\"Per1000LiveBirths\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/MEX\",\"Mexico\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/MEX\",\"2015\",16.2],[\"country/MEX\",\"2016\",15.7],[\"country/MEX\",\"2017\",15.2],[\"country/MEX\",\"2018\",14.7],[\"country/MEX\",\"2019\",14.2],[\"country/MEX\",\"2020\",13.8],[\"country/MEX\",\"2021\",13.3],[\"country/MEX\",\"2022\",12.9],[\"country/MEX\",\"2023\",12.5]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+            "name": "Mortality Rate of Children Younger Than 4 Years",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "15983318500878066985",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+            "unit": "Per1000LiveBirths"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "Mexico",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "2015",
+                16.2
+              ],
+              [
+                "country/MEX",
+                "2016",
+                15.7
+              ],
+              [
+                "country/MEX",
+                "2017",
+                15.2
+              ],
+              [
+                "country/MEX",
+                "2018",
+                14.7
+              ],
+              [
+                "country/MEX",
+                "2019",
+                14.2
+              ],
+              [
+                "country/MEX",
+                "2020",
+                13.8
+              ],
+              [
+                "country/MEX",
+                "2021",
+                13.3
+              ],
+              [
+                "country/MEX",
+                "2022",
+                12.9
+              ],
+              [
+                "country/MEX",
+                "2023",
+                12.5
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "Count_Person",
+        "place_dcid": "country/JPN",
+        "source_override": "18369491376878146239",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"Count_Person\",\"name\":\"Total population\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"18369491376878146239\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/JPN\",\"Japan\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/JPN\",\"2015\",127141000],[\"country/JPN\",\"2016\",127076000],[\"country/JPN\",\"2017\",126972000],[\"country/JPN\",\"2018\",126811000],[\"country/JPN\",\"2019\",126633000],[\"country/JPN\",\"2020\",126261000],[\"country/JPN\",\"2021\",125681593],[\"country/JPN\",\"2022\",125124989],[\"country/JPN\",\"2023\",124516650],[\"country/JPN\",\"2024\",123975371]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "Count_Person",
+            "name": "Total population",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "18369491376878146239",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "Japan",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/JPN",
+                "2015",
+                127141000
+              ],
+              [
+                "country/JPN",
+                "2016",
+                127076000
+              ],
+              [
+                "country/JPN",
+                "2017",
+                126972000
+              ],
+              [
+                "country/JPN",
+                "2018",
+                126811000
+              ],
+              [
+                "country/JPN",
+                "2019",
+                126633000
+              ],
+              [
+                "country/JPN",
+                "2020",
+                126261000
+              ],
+              [
+                "country/JPN",
+                "2021",
+                125681593
+              ],
+              [
+                "country/JPN",
+                "2022",
+                125124989
+              ],
+              [
+                "country/JPN",
+                "2023",
+                124516650
+              ],
+              [
+                "country/JPN",
+                "2024",
+                123975371
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "Count_Person",
+        "place_dcid": "country/KEN",
+        "source_override": "18369491376878146239",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"Count_Person\",\"name\":\"Total population\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"18369491376878146239\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/KEN\",\"Kenya\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/KEN\",\"2015\",47088526],[\"country/KEN\",\"2016\",48139687],[\"country/KEN\",\"2017\",49197766],[\"country/KEN\",\"2018\",50207107],[\"country/KEN\",\"2019\",51202827],[\"country/KEN\",\"2020\",52217334],[\"country/KEN\",\"2021\",53219166],[\"country/KEN\",\"2022\",54252461],[\"country/KEN\",\"2023\",55339003],[\"country/KEN\",\"2024\",56432944]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "Count_Person",
+            "name": "Total population",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "18369491376878146239",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "Kenya",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/KEN",
+                "2015",
+                47088526
+              ],
+              [
+                "country/KEN",
+                "2016",
+                48139687
+              ],
+              [
+                "country/KEN",
+                "2017",
+                49197766
+              ],
+              [
+                "country/KEN",
+                "2018",
+                50207107
+              ],
+              [
+                "country/KEN",
+                "2019",
+                51202827
+              ],
+              [
+                "country/KEN",
+                "2020",
+                52217334
+              ],
+              [
+                "country/KEN",
+                "2021",
+                53219166
+              ],
+              [
+                "country/KEN",
+                "2022",
+                54252461
+              ],
+              [
+                "country/KEN",
+                "2023",
+                55339003
+              ],
+              [
+                "country/KEN",
+                "2024",
+                56432944
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "args": {
+        "variable_dcid": "Count_Person",
+        "place_dcid": "country/MEX",
+        "source_override": "18369491376878146239",
+        "date": "range",
+        "date_range_start": "2015",
+        "date_range_end": "2024"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"variable\":{\"dcid\":\"Count_Person\",\"name\":\"Total population\",\"typeOf\":[\"StatisticalVariable\"]},\"sourceMetadata\":{\"sourceId\":\"18369491376878146239\",\"observationPeriod\":\"P1Y\",\"provenanceUrl\":\"https://datatopics.worldbank.org/world-development-indicators/\"},\"entityMetadata\":{\"columns\":[\"dcid\",\"name\",\"typeOf\"],\"rows\":[[\"country/MEX\",\"Mexico\",[\"Country\"]]]},\"data\":{\"columns\":[\"observationAbout\",\"date\",\"value\"],\"rows\":[[\"country/MEX\",\"2015\",121072306],[\"country/MEX\",\"2016\",122251351],[\"country/MEX\",\"2017\",123400057],[\"country/MEX\",\"2018\",124573711],[\"country/MEX\",\"2019\",125762982],[\"country/MEX\",\"2020\",126799054],[\"country/MEX\",\"2021\",127648148],[\"country/MEX\",\"2022\",128613117],[\"country/MEX\",\"2023\",129739759],[\"country/MEX\",\"2024\",130861007]]}}"
+          }
+        ],
+        "structuredContent": {
+          "variable": {
+            "dcid": "Count_Person",
+            "name": "Total population",
+            "typeOf": [
+              "StatisticalVariable"
+            ]
+          },
+          "sourceMetadata": {
+            "sourceId": "18369491376878146239",
+            "observationPeriod": "P1Y",
+            "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+          },
+          "entityMetadata": {
+            "columns": [
+              "dcid",
+              "name",
+              "typeOf"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "Mexico",
+                [
+                  "Country"
+                ]
+              ]
+            ]
+          },
+          "data": {
+            "columns": [
+              "observationAbout",
+              "date",
+              "value"
+            ],
+            "rows": [
+              [
+                "country/MEX",
+                "2015",
+                121072306
+              ],
+              [
+                "country/MEX",
+                "2016",
+                122251351
+              ],
+              [
+                "country/MEX",
+                "2017",
+                123400057
+              ],
+              [
+                "country/MEX",
+                "2018",
+                124573711
+              ],
+              [
+                "country/MEX",
+                "2019",
+                125762982
+              ],
+              [
+                "country/MEX",
+                "2020",
+                126799054
+              ],
+              [
+                "country/MEX",
+                "2021",
+                127648148
+              ],
+              [
+                "country/MEX",
+                "2022",
+                128613117
+              ],
+              [
+                "country/MEX",
+                "2023",
+                129739759
+              ],
+              [
+                "country/MEX",
+                "2024",
+                130861007
+              ]
+            ]
+          }
+        },
+        "isError": false
+      }
+    }
+  }
+]

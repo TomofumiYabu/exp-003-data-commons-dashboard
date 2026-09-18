@@ -1,0 +1,17 @@
+{
+  "serverName": "un_data_commons",
+  "endpointAsRecordedInPlan": "https://api.datacommons.org/mcp",
+  "configurationRead": false,
+  "credentialsReadOrSaved": false,
+  "researchSkill": "skill://data-commons-researcher/SKILL.md",
+  "discoveredTools": [
+    "search_indicators",
+    "search_child_indicators",
+    "get_variable_metadata",
+    "get_observations",
+    "get_child_observations",
+    "get_multi_entity_observations"
+  ],
+  "researchCalls": 13,
+  "rawEvidenceDirectory": "data/raw"
+}

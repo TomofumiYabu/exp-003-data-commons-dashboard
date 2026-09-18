@@ -1,0 +1,658 @@
+{
+  "experiment": "EXP-003",
+  "retrieved": "2026-09-18",
+  "requestedYears": [
+    2015,
+    2024
+  ],
+  "source": "World Bank, World Development Indicators, via Data Commons MCP",
+  "sourceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+  "variables": [
+    {
+      "id": "Count_Person",
+      "key": "population",
+      "label": "Total population",
+      "unit": "persons",
+      "definition": "Total population; count of people.",
+      "wb": "SP.POP.TOTL"
+    },
+    {
+      "id": "LifeExpectancy_Person",
+      "key": "life",
+      "label": "Life expectancy at birth",
+      "unit": "years",
+      "definition": "Years a newborn would live if prevailing age-specific mortality patterns remained constant throughout life.",
+      "wb": "SP.DYN.LE00.IN"
+    },
+    {
+      "id": "MortalityRate_Person_Upto4Years_AsFractionOf_Count_BirthEvent_LiveBirth",
+      "key": "mortality",
+      "label": "Under-five mortality",
+      "unit": "per 1,000 live births",
+      "definition": "Probability per 1,000 that a newborn dies before age five under the specified year's age-specific mortality rates. UN Inter-agency Group for Child Mortality Estimation estimates, distributed in World Bank WDI.",
+      "wb": "SH.DYN.MORT"
+    }
+  ],
+  "series": [
+    {
+      "indicator": "life",
+      "place": "country/JPN",
+      "country": "Japan",
+      "source": {
+        "sourceId": "8027911949465806975",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Year"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 83.793902439
+        },
+        {
+          "year": 2016,
+          "value": 83.9848780488
+        },
+        {
+          "year": 2017,
+          "value": 84.0997560976
+        },
+        {
+          "year": 2018,
+          "value": 84.2109756098
+        },
+        {
+          "year": 2019,
+          "value": 84.3563414634
+        },
+        {
+          "year": 2020,
+          "value": 84.56
+        },
+        {
+          "year": 2021,
+          "value": 84.4456097561
+        },
+        {
+          "year": 2022,
+          "value": 83.9963414634
+        },
+        {
+          "year": 2023,
+          "value": 84.0412195122
+        }
+      ]
+    },
+    {
+      "indicator": "life",
+      "place": "country/KEN",
+      "country": "Kenya",
+      "source": {
+        "sourceId": "8027911949465806975",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Year"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 62.279
+        },
+        {
+          "year": 2016,
+          "value": 62.526
+        },
+        {
+          "year": 2017,
+          "value": 62.725
+        },
+        {
+          "year": 2018,
+          "value": 62.825
+        },
+        {
+          "year": 2019,
+          "value": 62.939
+        },
+        {
+          "year": 2020,
+          "value": 61.596
+        },
+        {
+          "year": 2021,
+          "value": 61.225
+        },
+        {
+          "year": 2022,
+          "value": 63.549
+        },
+        {
+          "year": 2023,
+          "value": 63.646
+        }
+      ]
+    },
+    {
+      "indicator": "life",
+      "place": "country/MEX",
+      "country": "Mexico",
+      "source": {
+        "sourceId": "8027911949465806975",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Year"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 74.431
+        },
+        {
+          "year": 2016,
+          "value": 74.376
+        },
+        {
+          "year": 2017,
+          "value": 74.261
+        },
+        {
+          "year": 2018,
+          "value": 74.301
+        },
+        {
+          "year": 2019,
+          "value": 74.53
+        },
+        {
+          "year": 2020,
+          "value": 70.449
+        },
+        {
+          "year": 2021,
+          "value": 69.75
+        },
+        {
+          "year": 2022,
+          "value": 73.973
+        },
+        {
+          "year": 2023,
+          "value": 75.069
+        }
+      ]
+    },
+    {
+      "indicator": "mortality",
+      "place": "country/JPN",
+      "country": "Japan",
+      "source": {
+        "sourceId": "15983318500878066985",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Per1000LiveBirths"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 2.8
+        },
+        {
+          "year": 2016,
+          "value": 2.7
+        },
+        {
+          "year": 2017,
+          "value": 2.6
+        },
+        {
+          "year": 2018,
+          "value": 2.5
+        },
+        {
+          "year": 2019,
+          "value": 2.5
+        },
+        {
+          "year": 2020,
+          "value": 2.4
+        },
+        {
+          "year": 2021,
+          "value": 2.4
+        },
+        {
+          "year": 2022,
+          "value": 2.4
+        },
+        {
+          "year": 2023,
+          "value": 2.4
+        }
+      ]
+    },
+    {
+      "indicator": "mortality",
+      "place": "country/KEN",
+      "country": "Kenya",
+      "source": {
+        "sourceId": "15983318500878066985",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Per1000LiveBirths"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 47.4
+        },
+        {
+          "year": 2016,
+          "value": 46
+        },
+        {
+          "year": 2017,
+          "value": 45.3
+        },
+        {
+          "year": 2018,
+          "value": 44.3
+        },
+        {
+          "year": 2019,
+          "value": 43.3
+        },
+        {
+          "year": 2020,
+          "value": 42.8
+        },
+        {
+          "year": 2021,
+          "value": 41.9
+        },
+        {
+          "year": 2022,
+          "value": 41.1
+        },
+        {
+          "year": 2023,
+          "value": 39.9
+        }
+      ]
+    },
+    {
+      "indicator": "mortality",
+      "place": "country/MEX",
+      "country": "Mexico",
+      "source": {
+        "sourceId": "15983318500878066985",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/",
+        "unit": "Per1000LiveBirths"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 16.2
+        },
+        {
+          "year": 2016,
+          "value": 15.7
+        },
+        {
+          "year": 2017,
+          "value": 15.2
+        },
+        {
+          "year": 2018,
+          "value": 14.7
+        },
+        {
+          "year": 2019,
+          "value": 14.2
+        },
+        {
+          "year": 2020,
+          "value": 13.8
+        },
+        {
+          "year": 2021,
+          "value": 13.3
+        },
+        {
+          "year": 2022,
+          "value": 12.9
+        },
+        {
+          "year": 2023,
+          "value": 12.5
+        }
+      ]
+    },
+    {
+      "indicator": "population",
+      "place": "country/JPN",
+      "country": "Japan",
+      "source": {
+        "sourceId": "18369491376878146239",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 127141000
+        },
+        {
+          "year": 2016,
+          "value": 127076000
+        },
+        {
+          "year": 2017,
+          "value": 126972000
+        },
+        {
+          "year": 2018,
+          "value": 126811000
+        },
+        {
+          "year": 2019,
+          "value": 126633000
+        },
+        {
+          "year": 2020,
+          "value": 126261000
+        },
+        {
+          "year": 2021,
+          "value": 125681593
+        },
+        {
+          "year": 2022,
+          "value": 125124989
+        },
+        {
+          "year": 2023,
+          "value": 124516650
+        },
+        {
+          "year": 2024,
+          "value": 123975371
+        }
+      ]
+    },
+    {
+      "indicator": "population",
+      "place": "country/KEN",
+      "country": "Kenya",
+      "source": {
+        "sourceId": "18369491376878146239",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 47088526
+        },
+        {
+          "year": 2016,
+          "value": 48139687
+        },
+        {
+          "year": 2017,
+          "value": 49197766
+        },
+        {
+          "year": 2018,
+          "value": 50207107
+        },
+        {
+          "year": 2019,
+          "value": 51202827
+        },
+        {
+          "year": 2020,
+          "value": 52217334
+        },
+        {
+          "year": 2021,
+          "value": 53219166
+        },
+        {
+          "year": 2022,
+          "value": 54252461
+        },
+        {
+          "year": 2023,
+          "value": 55339003
+        },
+        {
+          "year": 2024,
+          "value": 56432944
+        }
+      ]
+    },
+    {
+      "indicator": "population",
+      "place": "country/MEX",
+      "country": "Mexico",
+      "source": {
+        "sourceId": "18369491376878146239",
+        "observationPeriod": "P1Y",
+        "provenanceUrl": "https://datatopics.worldbank.org/world-development-indicators/"
+      },
+      "values": [
+        {
+          "year": 2015,
+          "value": 121072306
+        },
+        {
+          "year": 2016,
+          "value": 122251351
+        },
+        {
+          "year": 2017,
+          "value": 123400057
+        },
+        {
+          "year": 2018,
+          "value": 124573711
+        },
+        {
+          "year": 2019,
+          "value": 125762982
+        },
+        {
+          "year": 2020,
+          "value": 126799054
+        },
+        {
+          "year": 2021,
+          "value": 127648148
+        },
+        {
+          "year": 2022,
+          "value": 128613117
+        },
+        {
+          "year": 2023,
+          "value": 129739759
+        },
+        {
+          "year": 2024,
+          "value": 130861007
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "indicator": "life",
+      "country": "Japan",
+      "start": 2015,
+      "end": 2023,
+      "first": 83.793902439,
+      "last": 84.0412195122,
+      "absolute": 0.2473170732000085,
+      "percent": 0.29514924833586864
+    },
+    {
+      "indicator": "life",
+      "country": "Kenya",
+      "start": 2015,
+      "end": 2023,
+      "first": 62.279,
+      "last": 63.646,
+      "absolute": 1.3669999999999973,
+      "percent": 2.1949613834518766
+    },
+    {
+      "indicator": "life",
+      "country": "Mexico",
+      "start": 2015,
+      "end": 2023,
+      "first": 74.431,
+      "last": 75.069,
+      "absolute": 0.6380000000000052,
+      "percent": 0.8571697276672507
+    },
+    {
+      "indicator": "mortality",
+      "country": "Japan",
+      "start": 2015,
+      "end": 2023,
+      "first": 2.8,
+      "last": 2.4,
+      "absolute": -0.3999999999999999,
+      "percent": -14.28571428571428
+    },
+    {
+      "indicator": "mortality",
+      "country": "Kenya",
+      "start": 2015,
+      "end": 2023,
+      "first": 47.4,
+      "last": 39.9,
+      "absolute": -7.5,
+      "percent": -15.822784810126578
+    },
+    {
+      "indicator": "mortality",
+      "country": "Mexico",
+      "start": 2015,
+      "end": 2023,
+      "first": 16.2,
+      "last": 12.5,
+      "absolute": -3.6999999999999993,
+      "percent": -22.839506172839506
+    },
+    {
+      "indicator": "population",
+      "country": "Japan",
+      "start": 2015,
+      "end": 2024,
+      "first": 127141000,
+      "last": 123975371,
+      "absolute": -3165629,
+      "percent": -2.489856930494494
+    },
+    {
+      "indicator": "population",
+      "country": "Kenya",
+      "start": 2015,
+      "end": 2024,
+      "first": 47088526,
+      "last": 56432944,
+      "absolute": 9344418,
+      "percent": 19.844362934613848
+    },
+    {
+      "indicator": "population",
+      "country": "Mexico",
+      "start": 2015,
+      "end": 2024,
+      "first": 121072306,
+      "last": 130861007,
+      "absolute": 9788701,
+      "percent": 8.085004179238142
+    }
+  ],
+  "findings": [
+    {
+      "indicator": "population",
+      "countries": [
+        "Japan"
+      ],
+      "years": [
+        2015,
+        2024
+      ],
+      "text": "Japan's population fell 2.49% from 127,141,000 in 2015 to 123,975,371 in 2024."
+    },
+    {
+      "indicator": "population",
+      "countries": [
+        "Kenya"
+      ],
+      "years": [
+        2015,
+        2024
+      ],
+      "text": "Kenya's population rose 19.84% from 47,088,526 in 2015 to 56,432,944 in 2024."
+    },
+    {
+      "indicator": "population",
+      "countries": [
+        "Mexico"
+      ],
+      "years": [
+        2015,
+        2024
+      ],
+      "text": "Mexico's population rose 8.09% from 121,072,306 in 2015 to 130,861,007 in 2024."
+    },
+    {
+      "indicator": "life",
+      "countries": [
+        "Japan",
+        "Kenya",
+        "Mexico"
+      ],
+      "years": [
+        2015,
+        2023
+      ],
+      "text": "Life expectancy increased between 2015 and 2023 by 0.25 years in Japan, 1.37 years in Kenya, 0.64 years in Mexico."
+    },
+    {
+      "indicator": "life",
+      "countries": [
+        "Mexico"
+      ],
+      "years": [
+        2019,
+        2021,
+        2023
+      ],
+      "text": "Mexico’s life expectancy fell from 74.53 years in 2019 to 69.75 in 2021, then reached 75.07 in 2023. This is a descriptive pattern, not a causal estimate."
+    },
+    {
+      "indicator": "mortality",
+      "countries": [
+        "Japan",
+        "Kenya",
+        "Mexico"
+      ],
+      "years": [
+        2015,
+        2023
+      ],
+      "text": "Under-five mortality declined in all three countries from 2015 to 2023: 14.29% in Japan, 15.82% in Kenya, 22.84% in Mexico. These are relative reductions, not percentage-point changes."
+    }
+  ],
+  "limitations": [
+    "Six requested 2024 health observations are absent in the selected MCP facets. Missing years are not imputed. Population covers 2015–2024; health indicators cover 2015–2023.",
+    "These are national aggregates and may hide within-country inequalities. Source estimates can be revised; retrieval dates do not identify a historical WDI release.",
+    "MCP display text for mortality says younger than 4, but its explicit definition is death before age five. That definition and per-1,000-live-births unit govern this analysis.",
+    "No causal conclusions or uncertainty intervals are estimated. Differences between indicators’ periods must be respected.",
+    "The hosted Data Commons endpoint was tested; this does not establish that a separate UN-specific graph or endpoint was queried.",
+    "The web-only comparison is sequential and not blinded. Prior MCP knowledge and supplementary definition checks limit experimental independence."
+  ]
+}

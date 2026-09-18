@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+__pycache__/
+.codex/
+*.log
+
+# Local operational records and full external-page retrieval dumps
+EXP-003_UN_System_Data_Commons_MCP_Experiment_Plan_v1.1.md
+PHASE_0B_EVIDENCE.md
+evidence/deployment/STOP.md
+evidence/deployment/RESUME_SECURITY_STOP.md
+evidence/deployment/checkpoint-before-publication.md
+evidence/logs/execution.md
+evidence/logs/final-secret-scan.json
+evidence/web/baseline_*.json

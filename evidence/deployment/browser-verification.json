@@ -1,0 +1,453 @@
+{
+  "charts": [
+    {
+      "label": "Total population",
+      "points": [
+        {
+          "cx": 64,
+          "cy": 49.10480000000001,
+          "label": "Japan, 2015: 127,141,000 persons"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 49.201371428571434,
+          "label": "Japan, 2016: 127,076,000 persons"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 49.35588571428573,
+          "label": "Japan, 2017: 126,972,000 persons"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 49.59508571428571,
+          "label": "Japan, 2018: 126,811,000 persons"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 49.859542857142856,
+          "label": "Japan, 2019: 126,633,000 persons"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 50.412228571428585,
+          "label": "Japan, 2020: 126,261,000 persons"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 51.27306182857143,
+          "label": "Japan, 2021: 125,681,593 persons"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 52.100016342857145,
+          "label": "Japan, 2022: 125,124,989 persons"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 53.003834285714305,
+          "label": "Japan, 2023: 124,516,650 persons"
+        },
+        {
+          "cx": 834,
+          "cy": 53.80802022857142,
+          "label": "Japan, 2024: 123,975,371 persons"
+        },
+        {
+          "cx": 64,
+          "cy": 168.03990422857143,
+          "label": "Kenya, 2015: 47,088,526 persons"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 166.4781793142857,
+          "label": "Kenya, 2016: 48,139,687 persons"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 164.90617622857144,
+          "label": "Kenya, 2017: 49,197,766 persons"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 163.40658388571427,
+          "label": "Kenya, 2018: 50,207,107 persons"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 161.92722845714286,
+          "label": "Kenya, 2019: 51,202,827 persons"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 160.4199609142857,
+          "label": "Kenya, 2020: 52,217,334 persons"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 158.9315248,
+          "label": "Kenya, 2021: 53,219,166 persons"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 157.39634365714286,
+          "label": "Kenya, 2022: 54,252,461 persons"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 155.7820526857143,
+          "label": "Kenya, 2023: 55,339,003 persons"
+        },
+        {
+          "cx": 834,
+          "cy": 154.15676891428572,
+          "label": "Kenya, 2024: 56,432,944 persons"
+        },
+        {
+          "cx": 64,
+          "cy": 58.12114537142858,
+          "label": "Mexico, 2015: 121,072,306 persons"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 56.36942137142859,
+          "label": "Mexico, 2016: 122,251,351 persons"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 54.662772457142864,
+          "label": "Mexico, 2017: 123,400,057 persons"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 52.91905794285714,
+          "label": "Mexico, 2018: 124,573,711 persons"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 51.152141028571435,
+          "label": "Mexico, 2019: 125,762,982 persons"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 49.61283405714286,
+          "label": "Mexico, 2020: 126,799,054 persons"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 48.35132297142857,
+          "label": "Mexico, 2021: 127,648,148 persons"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 46.91765474285717,
+          "label": "Mexico, 2022: 128,613,117 persons"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 45.24378662857143,
+          "label": "Mexico, 2023: 129,739,759 persons"
+        },
+        {
+          "cx": 834,
+          "cy": 43.57793245714285,
+          "label": "Mexico, 2024: 130,861,007 persons"
+        }
+      ]
+    },
+    {
+      "label": "Life expectancy at birth",
+      "points": [
+        {
+          "cx": 64,
+          "cy": 62.271707317200054,
+          "label": "Japan, 2015: 83.79 years"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 61.27863414624002,
+          "label": "Japan, 2016: 83.98 years"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 60.68126829248004,
+          "label": "Japan, 2017: 84.1 years"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 60.10292682903997,
+          "label": "Japan, 2018: 84.21 years"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 59.34702439032,
+          "label": "Japan, 2019: 84.36 years"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 58.28799999999998,
+          "label": "Japan, 2020: 84.56 years"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 58.882829268280005,
+          "label": "Japan, 2021: 84.45 years"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 61.219024390320016,
+          "label": "Japan, 2022: 84 years"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 60.98565853656001,
+          "label": "Japan, 2023: 84.04 years"
+        },
+        {
+          "cx": 64,
+          "cy": 174.14919999999998,
+          "label": "Kenya, 2015: 62.28 years"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 172.86479999999997,
+          "label": "Kenya, 2016: 62.53 years"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 171.82999999999998,
+          "label": "Kenya, 2017: 62.73 years"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 171.31,
+          "label": "Kenya, 2018: 62.83 years"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 170.7172,
+          "label": "Kenya, 2019: 62.94 years"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 177.70080000000002,
+          "label": "Kenya, 2020: 61.6 years"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 179.63,
+          "label": "Kenya, 2021: 61.23 years"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 167.5452,
+          "label": "Kenya, 2022: 63.55 years"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 167.0408,
+          "label": "Kenya, 2023: 63.65 years"
+        },
+        {
+          "cx": 64,
+          "cy": 110.9588,
+          "label": "Mexico, 2015: 74.43 years"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 111.24479999999996,
+          "label": "Mexico, 2016: 74.38 years"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 111.84280000000004,
+          "label": "Mexico, 2017: 74.26 years"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 111.63479999999998,
+          "label": "Mexico, 2018: 74.3 years"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 110.444,
+          "label": "Mexico, 2019: 74.53 years"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 131.66520000000003,
+          "label": "Mexico, 2020: 70.45 years"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 135.3,
+          "label": "Mexico, 2021: 69.75 years"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 113.3404,
+          "label": "Mexico, 2022: 73.97 years"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 107.64119999999996,
+          "label": "Mexico, 2023: 75.07 years"
+        }
+      ]
+    },
+    {
+      "label": "Under-five mortality",
+      "points": [
+        {
+          "cx": 64,
+          "cy": 226.352,
+          "label": "Japan, 2015: 2.8 per 1,000 live births"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 226.768,
+          "label": "Japan, 2016: 2.7 per 1,000 live births"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 227.184,
+          "label": "Japan, 2017: 2.6 per 1,000 live births"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 227.6,
+          "label": "Japan, 2018: 2.5 per 1,000 live births"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 227.6,
+          "label": "Japan, 2019: 2.5 per 1,000 live births"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 228.016,
+          "label": "Japan, 2020: 2.4 per 1,000 live births"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 228.016,
+          "label": "Japan, 2021: 2.4 per 1,000 live births"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 228.016,
+          "label": "Japan, 2022: 2.4 per 1,000 live births"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 228.016,
+          "label": "Japan, 2023: 2.4 per 1,000 live births"
+        },
+        {
+          "cx": 64,
+          "cy": 40.816,
+          "label": "Kenya, 2015: 47.4 per 1,000 live births"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 46.639999999999986,
+          "label": "Kenya, 2016: 46 per 1,000 live births"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 49.55200000000002,
+          "label": "Kenya, 2017: 45.3 per 1,000 live births"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 53.71200000000002,
+          "label": "Kenya, 2018: 44.3 per 1,000 live births"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 57.872000000000014,
+          "label": "Kenya, 2019: 43.3 per 1,000 live births"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 59.952,
+          "label": "Kenya, 2020: 42.8 per 1,000 live births"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 63.696,
+          "label": "Kenya, 2021: 41.9 per 1,000 live births"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 67.024,
+          "label": "Kenya, 2022: 41.1 per 1,000 live births"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 72.01600000000002,
+          "label": "Kenya, 2023: 39.9 per 1,000 live births"
+        },
+        {
+          "cx": 64,
+          "cy": 170.608,
+          "label": "Mexico, 2015: 16.2 per 1,000 live births"
+        },
+        {
+          "cx": 149.55555555555554,
+          "cy": 172.688,
+          "label": "Mexico, 2016: 15.7 per 1,000 live births"
+        },
+        {
+          "cx": 235.11111111111111,
+          "cy": 174.768,
+          "label": "Mexico, 2017: 15.2 per 1,000 live births"
+        },
+        {
+          "cx": 320.66666666666663,
+          "cy": 176.848,
+          "label": "Mexico, 2018: 14.7 per 1,000 live births"
+        },
+        {
+          "cx": 406.22222222222223,
+          "cy": 178.928,
+          "label": "Mexico, 2019: 14.2 per 1,000 live births"
+        },
+        {
+          "cx": 491.77777777777777,
+          "cy": 180.592,
+          "label": "Mexico, 2020: 13.8 per 1,000 live births"
+        },
+        {
+          "cx": 577.3333333333333,
+          "cy": 182.672,
+          "label": "Mexico, 2021: 13.3 per 1,000 live births"
+        },
+        {
+          "cx": 662.8888888888889,
+          "cy": 184.336,
+          "label": "Mexico, 2022: 12.9 per 1,000 live births"
+        },
+        {
+          "cx": 748.4444444444445,
+          "cy": 186,
+          "label": "Mexico, 2023: 12.5 per 1,000 live births"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "Japan's population fell 2.49% from 127,141,000 in 2015 to 123,975,371 in 2024.TRACE · population / Japan / 2015, 2024",
+    "Kenya's population rose 19.84% from 47,088,526 in 2015 to 56,432,944 in 2024.TRACE · population / Kenya / 2015, 2024",
+    "Mexico's population rose 8.09% from 121,072,306 in 2015 to 130,861,007 in 2024.TRACE · population / Mexico / 2015, 2024",
+    "Life expectancy increased between 2015 and 2023 by 0.25 years in Japan, 1.37 years in Kenya, 0.64 years in Mexico.TRACE · life / Japan, Kenya, Mexico / 2015, 2023",
+    "Mexico’s life expectancy fell from 74.53 years in 2019 to 69.75 in 2021, then reached 75.07 in 2023. This is a descriptive pattern, not a causal estimate.TRACE · life / Mexico / 2019, 2021, 2023",
+    "Under-five mortality declined in all three countries from 2015 to 2023: 14.29% in Japan, 15.82% in Kenya, 22.84% in Mexico. These are relative reductions, not percentage-point changes.TRACE · mortality / Japan, Kenya, Mexico / 2015, 2023"
+  ],
+  "missingCells": 6,
+  "sourceLinks": [
+    "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "https://data.worldbank.org/indicator/SP.DYN.LE00.IN",
+    "https://data.worldbank.org/indicator/SH.DYN.MORT"
+  ]
+}

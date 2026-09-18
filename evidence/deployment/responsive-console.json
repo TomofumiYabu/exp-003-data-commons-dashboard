@@ -1,0 +1,23 @@
+{
+  "mobile": {
+    "chartViewports": [
+      {
+        "content": 720,
+        "visible": 317
+      },
+      {
+        "content": 720,
+        "visible": 317
+      },
+      {
+        "content": 720,
+        "visible": 317
+      }
+    ],
+    "charts": 3,
+    "pageWidth": 375,
+    "points": 84,
+    "viewport": 390
+  },
+  "consoleWarningsAndErrors": []
+}

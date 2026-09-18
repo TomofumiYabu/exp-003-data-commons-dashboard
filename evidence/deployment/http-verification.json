@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-18T14:30:19.942Z",
+  "url": "https://tomofumiyabu.github.io/exp-003-data-commons-dashboard/",
+  "result": "PASS",
+  "observations": 84,
+  "series": 9,
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 4219,
+      "hostedSha256": "76e5de089134d8ed42f9a928e914e3d0d0cdd0d84c4f07312948eca28f303b83",
+      "localSha256": "76e5de089134d8ed42f9a928e914e3d0d0cdd0d84c4f07312948eca28f303b83",
+      "exactMatch": true
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "bytes": 4151,
+      "hostedSha256": "f3b2ddbb63a62ab733a946bce9dea9bf423c2d47a467b7a86061c868b3e42c56",
+      "localSha256": "f3b2ddbb63a62ab733a946bce9dea9bf423c2d47a467b7a86061c868b3e42c56",
+      "exactMatch": true
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "bytes": 4383,
+      "hostedSha256": "6d078710e83924d5c9376cf7ccbbb4eaa07909c60d793e4c64de63fc5ddb91d1",
+      "localSha256": "6d078710e83924d5c9376cf7ccbbb4eaa07909c60d793e4c64de63fc5ddb91d1",
+      "exactMatch": true
+    },
+    {
+      "file": "data/dataset.json",
+      "status": 200,
+      "bytes": 15057,
+      "hostedSha256": "f6d99650485a7820a8bd49a7e55040029680823c0f0789e0b1b15399b1a2e687",
+      "localSha256": "f6d99650485a7820a8bd49a7e55040029680823c0f0789e0b1b15399b1a2e687",
+      "exactMatch": true
+    },
+    {
+      "file": "data/observations.csv",
+      "status": 200,
+      "bytes": 12388,
+      "hostedSha256": "4b72c7900cf0395b6ac8627e8467d57c7d48c8b2086889edb5e6178478d10a7f",
+      "localSha256": "4b72c7900cf0395b6ac8627e8467d57c7d48c8b2086889edb5e6178478d10a7f",
+      "exactMatch": true
+    }
+  ]
+}
